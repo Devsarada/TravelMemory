@@ -6,7 +6,7 @@ pipeline {
         BACKEND_IMAGE      = "${DOCKERHUB_USERNAME}/travelmemory-backend"
         FRONTEND_IMAGE     = "${DOCKERHUB_USERNAME}/travelmemory-frontend"
         TAG                = "${BUILD_NUMBER}"
-        EMAIL_RECIPIENTS   = 'saradapradhan2432gmail.com'           // BADLEIN
+        EMAIL_RECIPIENTS   = 'saradapradhan243@gmail.com'           // BADLEIN
         // SLACK_CHANNEL      = '#devops-alerts'             // BADLEIN
     }
 
