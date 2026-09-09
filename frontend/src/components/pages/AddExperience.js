@@ -21,6 +21,19 @@ export default function AddExperience() {
         setLoading(true);
         console.log(formdata)
         axios.post(`${baseUrl}/trip`, formdata)
+        setFormdata({
+            tripName: "",
+            startDateOfJourney: "",
+            endDateOfJourney: "",
+            nameOfHotels: "",
+            placesVisited: "",
+            totalCost: 0,
+            experience: "",
+            image: "",
+            tripType: "",
+            featured: false,
+            shortDescription: ""
+    })
         setLoading(false)
     }
 
