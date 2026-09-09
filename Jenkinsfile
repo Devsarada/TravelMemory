@@ -39,7 +39,7 @@ pipeline {
             echo 'Pipeline passed - code quality OK'
         }
         failure {
-            echo 'Pipeline failed - Sonar ya Quality Gate check karein'
+            echo 'Pipeline failed - Sonar ya Quality Gate check kare'
         }
     }
 }
